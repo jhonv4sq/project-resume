@@ -17,7 +17,7 @@
 <ul>
     <li>composer require laravel/ui</li>
 </ul>
-pendiente puede faltar un archivo js en node_modules\webpack\lib\rules
+pendiente puede faltar un archivo js en node_modules\webpack\lib\rules</n>
 
 <p>Generar las vistas de autentificacion de usuario usando Vue</p>
 <ul>
