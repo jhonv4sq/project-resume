@@ -1,3 +1,45 @@
+## Comandos usados 
+
+<p>Crear proyecto</p>
+<ul>
+    <li>composer create-project laravel/laravel 'Nombre del proyecto'</li>
+</ul>
+<p>Instalar paquetes de dependencias para trabajar con Vue</p>
+<ul>
+    <li>composer require laravel/ui</li>
+</ul>
+pendiente puede faltar un archivo js en node_modules\webpack\lib\rules
+
+<p>Generar las vistas de autentificacion de usuario usando Vue</p>
+<ul>
+    <li>php artisan ui vue --auth</li>
+</ul>
+
+<p>Hacer migracion</p>
+<ul>
+    <li>php artisan migrate</li>
+</ul>
+
+<p>Refrescar base de datos</p>
+<ul>
+    <li>php artisan migrate:fresh </li>
+</ul>
+
+<p>crea el modelo y la migracion resumes</p>
+<ul>
+    <li>php artisan make:model -m Resume</li>
+</ul>
+
+<p>crea el controlador y modelo resumes</p>
+<ul>
+    <li>php artisan make:controller ResumeController --model=Resume</li>
+</ul>
+
+<p>Visualisa Vue</p>
+<ul>
+    <li>npm run watch</li>
+</ul>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -57,14 +99,6 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## Comandos usados 
-
-<p>Crear proyecto</p>
-<ul>
-    <li>composer create-project laravel/laravel 'Nombre del proyecto'</li>
-</ul>
-
 
 ## License
 
