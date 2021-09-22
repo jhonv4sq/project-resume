@@ -1,23 +1,3 @@
-## Comandos de Laravel 
-
-<p>mkdir 'nombre de la carpeta'
-composer create-project laravel/laravel 'Nombre del proyecto'
-
-autentificacion 
-composer require laravel/ui agregara dependencias 
-php artisan ui vue --auth  esto generara todas las vistas de autentificacion con vue
-node_modules\webpack\lib\rules va a faltar un archivo js
-
-
-php artisan migrate para sacer una migracion 
-php artisan migrate:fresh 
-
-php artisan make:model -m Resume  crea el modelo y la migracion resumes 
-
-php artisan make:controller ResumeController --model=Resume   creamos el controlador para el modelo resumes
-
-npm run watch para renderizar lo que esta en vue </p>
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
